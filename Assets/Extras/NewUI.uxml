@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Button text="Button">
+        <Style src="NewUI.uss" />
+    </ui:Button>
+    <ui:VisualElement style="height: 426px;">
+        <Style src="NewUI.uss" />
+    </ui:VisualElement>
+</ui:UXML>

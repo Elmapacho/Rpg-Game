@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f866a576739d5ed4d89ce51a9ab5affd, type: 3}
+  m_Name: HealthPotion
+  m_EditorClassIdentifier: 
+  itemName: Heatlh Potion
+  itemID: 0
+  icon: {fileID: 21300000, guid: 871b045449cfa9c45ab0b262123ff72b, type: 3}
+  description: Heals a Character for 10 hp.
+  unique: 0
+  amount: 5
+  amountStackable: 5
+  hpHeal: 10
+  manaHeal: 0
+  curePoison: 0
+  cureSleep: 0
+  boostMDamage: 0
+  boostPDamage: 0
+  boostMDefense: 0
+  boostPDefense: 0
+  addMDamage: 0
+  addPDamage: 0
+  addMDefense: 0
+  addPDefense: 0
+  poison: 0
+  sleep: 0

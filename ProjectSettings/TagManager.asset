@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Npc
+  - 
+  - Collision
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Interactable
+  - Cutscene
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 4042660791
+    locked: 0
+  - name: Ground
+    uniqueID: 3725981901
+    locked: 0
+  - name: Foreground
+    uniqueID: 2755142137
+    locked: 0
+  - name: OverForeground
+    uniqueID: 404241587
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

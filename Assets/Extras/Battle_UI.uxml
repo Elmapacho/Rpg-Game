@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Button text="Button" style="position: relative; top: 261px; left: 10px; width: 243px;">
+        <Style src="*unsaved in-memory StyleSheet with instanceId:-1336" />
+    </ui:Button>
+    <ui:VisualElement style="top: 416px; right: -47px; width: 351px; height: 89px; left: 26px; margin-left: 11px; margin-right: 11px; margin-top: 11px; margin-bottom: 11px;">
+        <Style src="*unsaved in-memory StyleSheet with instanceId:-1336" />
+    </ui:VisualElement>
+</ui:UXML>

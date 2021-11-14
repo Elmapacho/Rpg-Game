@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2085963154797941748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2085963154797941749}
+  - component: {fileID: 2085963154797941750}
+  m_Layer: 0
+  m_Name: InventoryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2085963154797941749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085963154797941748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2085963154797941750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085963154797941748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54eaea79b8073a41b7c3cb77759aeba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  consumableCapacity: 10
+  consumableList:
+  - {fileID: 11400000, guid: c05d6e4364c5ebe41ad66563a2cdd254, type: 2}
+  - {fileID: 11400000, guid: cbd8f8121f7577f4289335807b29f3dc, type: 2}
+  - {fileID: 11400000, guid: cbd8f8121f7577f4289335807b29f3dc, type: 2}
+  - {fileID: 11400000, guid: cbd8f8121f7577f4289335807b29f3dc, type: 2}
+  - {fileID: 11400000, guid: cbd8f8121f7577f4289335807b29f3dc, type: 2}
+  - {fileID: 11400000, guid: cbd8f8121f7577f4289335807b29f3dc, type: 2}
+  - {fileID: 11400000, guid: cbd8f8121f7577f4289335807b29f3dc, type: 2}
+  - {fileID: 11400000, guid: cbd8f8121f7577f4289335807b29f3dc, type: 2}
+  - {fileID: 11400000, guid: cbd8f8121f7577f4289335807b29f3dc, type: 2}
+  - {fileID: 11400000, guid: cbd8f8121f7577f4289335807b29f3dc, type: 2}
+  usableCapacity: 20
+  battleItemList: []
+  weaponCapacity: 10
+  weaponList:
+  - {fileID: 11400000, guid: e2c50a38abccf324491a203649fac6ea, type: 2}
+  - {fileID: 11400000, guid: 208c20c8bc17f5a48aa81bb61ade871a, type: 2}
+  armorCapacity: 2
+  armorList:
+  - {fileID: 11400000, guid: dd663940e6dd5bc4e80325729c35f65f, type: 2}
+  - {fileID: 11400000, guid: 64e4006fe2ab6c444a3b5cced5f85eef, type: 2}
+  - {fileID: 11400000, guid: c31f9523c1d573c48bc2f82385a77d47, type: 2}
+  - {fileID: 11400000, guid: 8d80f682e1c30ec4a9e1a6ae3983f973, type: 2}
+  keyItemCapacity: 2
+  keyItemList:
+  - {fileID: 11400000, guid: 5d0921d7856488a429e5b9e8ae6f1446, type: 2}
+  - {fileID: 11400000, guid: 14bc315a1ff34ef41be61db8870d2e36, type: 2}
+  consumableToLoot: {fileID: 0}
+  consumableAmountToLoot: 0
+  battleItemToLoot: {fileID: 0}
+  battleItemAmountToLoot: 0
+  weaponToLoot: {fileID: 0}
+  armorToLoot: {fileID: 0}
+  keyItemToLoot: {fileID: 0}
